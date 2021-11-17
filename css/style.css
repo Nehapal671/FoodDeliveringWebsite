@@ -1,0 +1,136 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.navigation {
+  margin-top: 28px;
+  font-family: var(--font1);
+  /* height: 65px; */
+  /*background-color: royalblue;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+.nav-left {
+  font-size: 40px;
+  display: flex;
+}
+.nav-left span {
+  font-size: 38px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.content {
+  height: 100%;
+  /*background-color: rgb(66, 67, 70);*/
+  display: flex;
+  margin-top: 32px;
+  padding: 10px;
+  position: relative;
+
+}
+.content::after{
+  content: "";
+  background-image: url("https://femina.wwmindia.com/content/2018/jun/1515277731821528804798.jpg");
+  position:absolute;
+  width:100%;
+  height: 95%;
+  opacity: 0.20;
+  image-resolution: 2px;
+}
+
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 77px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-family: var(--font2);
+  transition: all ease-in-out;
+}
+
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-left ul li:hover a {
+  color:  rgb(245, 146, 16);
+  font-weight: bolder;
+}
+.nav-right {
+  font: size 20px;
+  display: flex;
+}
+.content-left {
+  font-family: var(--font1);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 49px;
+  z-index: 1;
+}
+.content-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-right img {
+  height: 355px;
+  border: 2px solid black;
+}
+.home-articles {
+  background-color: rgba(163, 241, 215, 0.5);
+  padding-top: 18px;
+  padding: 2%;
+  margin-top: 30px;
+}
+.fast-food-content {
+  align-self: center;
+  padding: 25px;
+}
+.home-article {
+  display: flex;
+  margin: 25px;
+}
+.home-articles img {
+  width: 300px;
+}
+.fast-food-content {
+  align-self: center;
+  padding: 25px;
+}
+/*.home-articles{} */
+.footer {
+  height: 50px;
+  background-color: rgb(238, 198, 67);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+.footer a {
+  color: black;
+}
+.formbox-1{
+  width: auto;
+  padding: 0px 10px; 
+  padding-top: 2px; 
+   /* border: 1px solid black;  */
+  border: radius 10px;
+  font-family: var(--font1);
+  font-size: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  size: 5px;
+}
